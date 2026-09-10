@@ -1,0 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;700;800&family=Inter:wght@400;500;600&display=swap');
+@import "tailwindcss";
+
+h1,h2,h3{font-family:'Plus Jakarta Sans', sans-serif}
+input[type="date"]{position:relative}
+
+@media print {
+  .no-print{display:none !important}
+  body{background:white}
+  .print-card{box-shadow:none !important; border:1px solid #e2e8f0 !important}
+}
